@@ -1,0 +1,111 @@
+body {
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+        .nft {
+            font-family: 'Outfit', sans-serif;
+            background-color: #15263F;
+            width: 350px;
+            border-radius: 15px;
+            margin: auto;
+            padding: 24px;
+
+            .nf-img {
+                width: 100%;
+                border-radius: 8px;
+            }
+             
+            .ntf-heading {
+                margin-top: 24px;
+                display: inline-block;
+                font-size: 22px;
+                color: #ffffff;
+                font-weight: 600;
+                cursor: pointer;
+                transition: 0.5s;
+
+                &:hover {
+                    color: #00FFF8;
+                }
+            }
+
+            .nft-p {
+                color: #8BACD9;
+                font-size: 19px;
+                font-weight: 300;
+                line-height: 26px;
+                margin: 16px 0 16px 0;
+            }
+
+                .describe {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .fasi-img {
+                        display: inline;
+                    }
+
+                    .fasi-p { 
+
+                        color: #00FFF8;
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin-left: 8px;
+                        margin-top: 3px;
+                    }
+
+                    .clock {
+                        display: inline;
+                    }
+
+                    .day {
+                        font-size: 15px;
+                        color: #8BACD9;
+                        font-weight: 400;
+                        margin-left: 8px;
+
+                    }
+                }
+
+            .rectangle {
+                height: 1px;
+                background-color: #2E405A;
+                margin-top: 24px;
+                max-width: 100%;
+            }
+
+            .personal {
+                display: flex;
+                margin-top: 16px;
+                justify-content: flex-start;
+
+                .personal-img {
+                    display: inline-block;
+                }
+
+                .personal-info {
+                    padding-top: 7px;
+                    margin-left: 16px;
+                    align-items: center;
+                    font-size: 16px;
+                    color: #8BACD9;
+                    font-weight: 400;
+
+                    .personal-span {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #ffffff;
+                        transition: 0.3s;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #00FFF8;
+                        }
+
+                    }
+                }
+            }
+
+        }
+}
